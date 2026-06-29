@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "Custom"
+
+[[mods]]
+modId = "com.gamerofpro.advanceweather"
+version = "1.0 beta"
+displayName = "advance weather"
+authors = "Gamerofpro"
+description = '''
+this mod make weather to be more accurate than vallina weather system, more function are to be added
+'''
+
+[[dependencies.yourmodid]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.yourmodid]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
