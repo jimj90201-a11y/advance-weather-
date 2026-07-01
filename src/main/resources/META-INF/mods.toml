@@ -3,22 +3,23 @@ loaderVersion = "[47,)"
 license = "Custom"
 
 [[mods]]
-modId = "com.gamerofpro.advanceweather"
-version = "1.0 beta"
-displayName = "advance weather"
+modId = "advanceweather"
+version = "1.0-beta"
+displayName = "Advance Weather"
 authors = "Gamerofpro"
 description = '''
-this mod make weather to be more accurate than vallina weather system, more function are to be added
+This mod makes weather more accurate than vanilla weather system.
+More features will be added soon.
 '''
 
-[[dependencies.yourmodid]]
+[[dependencies.advanceweather]]
 modId = "forge"
 mandatory = true
 versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.yourmodid]]
+[[dependencies.advanceweather]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1]"
