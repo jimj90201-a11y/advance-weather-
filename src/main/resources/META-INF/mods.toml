@@ -1,27 +1,26 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
-license = "Custom"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
 
 [[mods]]
-modId = "advanceweather"
-version = "1.0-beta"
-displayName = "Advance Weather"
-authors = "Gamerofpro"
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_authors}"
 description = '''
-This mod makes weather more accurate than vanilla weather system.
-More features will be added soon.
+${mod_description}
 '''
 
-[[dependencies.advanceweather]]
+[[dependencies.${mod_id}]]
 modId = "forge"
 mandatory = true
-versionRange = "[47,)"
+versionRange = "${forge_version_range}"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.advanceweather]]
+[[dependencies.${mod_id}]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.1]"
+versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
